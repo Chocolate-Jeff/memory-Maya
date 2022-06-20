@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1778483308376342}
+  m_IsPrefabAsset: 1
+--- !u!1 &1778483308376342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224846514358245616}
+  - component: {fileID: 222333903753974756}
+  - component: {fileID: 114330382455392874}
+  - component: {fileID: 95738215496489802}
+  - component: {fileID: 114724769010542998}
+  - component: {fileID: 114111090485212512}
+  m_Layer: 5
+  m_Name: card
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &95738215496489802
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778483308376342}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 238dc5499291d1c4985a36a816dd56b0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114111090485212512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778483308376342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114724769010542998}
+          m_MethodName: OnCardClick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &114330382455392874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778483308376342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 3117476f68ff1b9499ca6b71bd7f632a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114724769010542998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778483308376342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7747df2ff8c6d1408d5be40832da3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardAnim1: {fileID: 0}
+  cardImage: {fileID: 0}
+  cardNumber: 3
+  cards:
+  - {fileID: 21300000, guid: f92ca5af639638c40ae7d512933cf5a6, type: 3}
+  - {fileID: 21300000, guid: 9221d1671fcde90418392b0103c11321, type: 3}
+  - {fileID: 21300000, guid: 8d635fcad96bea44787439df75bf068b, type: 3}
+  - {fileID: 21300000, guid: dc9a47fed217ca745ad353df7a6425ee, type: 3}
+  - {fileID: 21300000, guid: fef3cd912c19bae4dbc88068568a1a33, type: 3}
+  - {fileID: 21300000, guid: 06576914cfeb8cc43b7a4cf2e4c6bd76, type: 3}
+  - {fileID: 21300000, guid: 1e16cd9db68d9124aa03422965b69a46, type: 3}
+  - {fileID: 21300000, guid: 987b7cdfb79b903468722906b22e6c36, type: 3}
+  - {fileID: 21300000, guid: ff1e7196536e1bd4bada6c798423bf7e, type: 3}
+  - {fileID: 21300000, guid: a07716b028c3ce14992e15d6ee036af6, type: 3}
+  - {fileID: 21300000, guid: 327ba1e62a00e954ea531b54268b80c5, type: 3}
+  - {fileID: 21300000, guid: 1ce598dd4c2b51e499f7f637b83f3c7a, type: 3}
+  - {fileID: 21300000, guid: 450a3f92081dd4c439a768f47a74a554, type: 3}
+  - {fileID: 21300000, guid: a1d9247795558cd438a6b0f06384e53f, type: 3}
+  - {fileID: 21300000, guid: 7f237d70baf17f247a7254f947654816, type: 3}
+  - {fileID: 21300000, guid: 417bee0596c43f54786ca244cd26aea7, type: 3}
+  - {fileID: 21300000, guid: 3a5395c2ba91abf46ad7b65cd254f007, type: 3}
+  - {fileID: 21300000, guid: 6a97ff83509094845bf01daa00c992fb, type: 3}
+  cardBack: {fileID: 21300000, guid: 3117476f68ff1b9499ca6b71bd7f632a, type: 3}
+--- !u!222 &222333903753974756
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778483308376342}
+  m_CullTransparentMesh: 0
+--- !u!224 &224846514358245616
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778483308376342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
