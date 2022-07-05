@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -328,6 +329,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      145797-social-network-logo-collection_2: 21300004
+      145797-social-network-logo-collection_7: 21300014
+      145797-social-network-logo-collection_4: 21300008
+      145797-social-network-logo-collection_0: 21300000
+      145797-social-network-logo-collection_8: 21300016
+      145797-social-network-logo-collection_6: 21300012
+      145797-social-network-logo-collection_3: 21300006
+      145797-social-network-logo-collection_1: 21300002
+      145797-social-network-logo-collection_5: 21300010
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
